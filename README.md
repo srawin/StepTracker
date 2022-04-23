@@ -19,4 +19,8 @@ Features:
 - A recording of the steps taken for the day
 - A Firestore database that keeps track of your daily walk history
 
-## Installation
+Technology used:
+pedometer 3.0.0
+https://github.com/cph-cachet/flutter-plugins/blob/master/packages/pedometer
+Google Firestore
+https://firebase.google.com/products/firestore/
