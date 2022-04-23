@@ -65,12 +65,17 @@ class _MyAppState extends State<Homepage> {
     if(await FirestoreDatabase().returnDate(formatted)){
       dailyStep = a.get("dailySteps");
       totalStep = a.get("totalSteps");
+      _dailySteps = dailyStep.toString();
+      _totalSteps = totalStep.toString();
     }
     DocumentSnapshot b = await FirebaseFirestore.instance.collection(uid).doc("record").get();
     if(await FirestoreDatabase().returnDate("record")){
       longestDailyStep = b.get("recordDailySteps");
       longestConsecutiveStep = b.get("recordConsecutiveSteps");
       totalStep = b.get("recordTotalSteps");
+      _longestDailyStep = longestDailyStep.toString();
+      _longestConsecutiveStep = longestConsecutiveStep.toString();
+      _totalSteps = totalStep.toString();
     }
     finishedInit=true;
   }
@@ -164,7 +169,7 @@ class _MyAppState extends State<Homepage> {
                   ? Icons.directions_walk
                   : _status == 'stopped'
                   ? Icons.accessibility_new
-                  : Icons.error,
+                  : Icons.accessibility_new,
               size: 100,
             ),
             Center(
@@ -172,7 +177,7 @@ class _MyAppState extends State<Homepage> {
                 _status,
                 style: _status == 'walking' || _status == 'stopped'
                     ? const TextStyle(fontSize: 30)
-                    : const TextStyle(fontSize: 20, color: Colors.red),
+                    : const TextStyle(fontSize: 30)
               ),
             ),
             const Divider(
