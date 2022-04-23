@@ -6,8 +6,8 @@ Our project will use both Firebase and a phone sensor in a form of a pedometer t
 
 ## Project Description
 For our project, we decided to use the pedometer as our sensor, which allows us to count the number of steps the user of the phone takes.
-This prompts us to not only learn the function of phone sensors but in cloud storage using firestore.
-Not only that, we have decided to include the use of firebase for the storage of the history of our user’s daily stats as well.
+This prompts us not only to learn the function of phone sensors, but also in cloud storage using firestore.
+We have decided to include the use of firebase for the storage of the history of our user’s daily stats as well.
 Our objective of this project is to create an application that will help people in tandem to losing weight by encouraging people to walk more and be more consistent with their schedules.
 - Develop the application to let people observe the steps count in real-time.
 - Help people keep up with the amount of time and steps they have taken for the day.
