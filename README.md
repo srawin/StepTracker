@@ -1,4 +1,4 @@
-# StepTracker
+# StepTracker 🐾
 StepTracker is an application that tracks people steps in real time.
 This is a project for subject ITCS424: Wireless and Mobile Computing with Lect. Snit Sanghlao as our advisor.
 The purpose is to learn how to use Flutter, Dart and Android Studio, introduction in cloud storage using Firebase and utilization of the sensors present in our phone.
