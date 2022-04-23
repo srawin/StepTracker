@@ -13,13 +13,13 @@ Our objective of this project is to create an application that will help people 
 - Help people keep up with the amount of time and steps they have taken for the day.
 - Keep track of users' activity history by storing the stats in Firebase.
 
-Features:
+### Features:
 - A fully functional real time step counter
 - Sensor detection if you are walking or not
 - A recording of the steps taken for the day
 - A Firestore database that keeps track of your daily walk history
 
-Technology used:
+### Technology used:
 - pedometer 3.0.0
 https://github.com/cph-cachet/flutter-plugins/blob/master/packages/pedometer
 - Google Firestore
