@@ -20,7 +20,7 @@ Features:
 - A Firestore database that keeps track of your daily walk history
 
 Technology used:
-pedometer 3.0.0
+- pedometer 3.0.0
 https://github.com/cph-cachet/flutter-plugins/blob/master/packages/pedometer
-Google Firestore
+- Google Firestore
 https://firebase.google.com/products/firestore/
